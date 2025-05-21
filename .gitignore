@@ -1,0 +1,40 @@
+# Carpetas de entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración o datos locales
+*.env
+*.log
+*.sqlite3
+
+# Archivos generados por Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de PyInstaller
+*.spec
+dist/
+build/
+
+# Archivos de prueba o de cobertura
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/

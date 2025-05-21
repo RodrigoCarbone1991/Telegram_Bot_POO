@@ -1,0 +1,24 @@
+python-telegram-bot
+python-dotenv
+requests
+tensorflow
+numpy
+pandas  
+scikit-learn
+nltk
+joblib
+dotenv
+telegram
+
+
+#PARA CREAR EL BOT Y ENVIAR MENSAJES
+# python-telegram-bot Para interactuar con la API de Telegram
+# python-dotenv Para manejar variables de entorno
+# requests Para hacer peticiones HTTP si se agregan funcionalidades extras en el futuro
+
+#PARA ENTRENAR UN MOEDLO BASICO DE IA (DL/Redes Neuronales)
+# tensorflow Para crear y entrenar modelos de IA
+# numpy Para manejar arreglos y matrices de datos
+# pandas Para manejar datos en forma de tablas
+# scikit-learn Para preprocesar datos y evaluar modelos de IA
+# nlkt Para el procesamiento de lenguaje natural (NLP)
