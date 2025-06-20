@@ -2,7 +2,7 @@ import asyncio
 from telegram import Bot
 from dotenv import load_dotenv
 import os
-from logger import setup_logger
+from src.logger import setup_logger
 
 # Configurar el logger
 logger = setup_logger()
