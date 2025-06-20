@@ -68,14 +68,14 @@ async def main():
     await app.updater.start_polling()
 
 
-if __name__ == "__main__":#verifica que el script es ejecutado directamente y no como modulo
+if __name__ == "__main__":
     import asyncio
 
-    async def safe_main():#se define nuevamente la funcion asyncronica
-        await main()#llama a main para inicializar el bot y esperar indefinidamente
-        await asyncio.Event().wait()#permite que el bot siga funcionando mientras espera mensajes
+    async def safe_main():
+        await main()
+        await asyncio.Event().wait()
 
     try:
-        asyncio.get_event_loop().run_until_complete(safe_main())#permite que el bo no se bloquee con un bucle de eventos
-    except KeyboardInterrupt:#el bucle continua hasta que se produce una excepcion por teclado (keyboardinterrump) con ctrl + c
+        asyncio.get_event_loop().run_until_complete(safe_main())
+    except KeyboardInterrupt:
         print("🔴 Bot detenido manualmente.")
